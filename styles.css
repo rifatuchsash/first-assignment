@@ -104,3 +104,151 @@
     border-radius: 5px;
     border: none;
   }
+
+  
+  .news-card {
+    display: flex;
+    background: #fff;
+    border-radius: 25px;
+    padding: 30px;
+    margin-bottom: 20px;
+    overflow: hidden;
+  }
+  
+  .row-reverse {
+    flex-direction: row-reverse;
+  }
+  
+  .mb-5 {
+    margin-bottom: 20px;
+  }
+  
+  .news-content {
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+  }
+  .news-content img{
+    width: 120px;
+  }
+  
+  .news-header {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .news-meta {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 10px;
+  }
+  
+  .news-text {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .read-more {
+    padding: 10px 20px;
+    background: #006A50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+  }
+  
+  .read-more:hover {
+    background: #45a049;
+  }
+  
+
+
+  .donate-section {
+    padding: 0 100px;
+    margin: 50px auto;
+    text-align: center;
+    border-radius: 8px;
+    padding: 30px 20px;
+  }
+  
+  .donate-header {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .donate-description {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .donation-options {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .donation-card {
+    flex: 1 1 150px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .active {
+    background: #C6E4D6;
+  }
+  
+  .donation-card:hover {
+    background: #006A50;
+    color: #fff;
+    border-color: #006A50;
+  }
+  
+  
+  .donate-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px auto 20px;
+    border: none;
+    border-radius: 8px;
+  }
+  .donate-input::placeholder{
+    text-align: center;
+  }
+  .donate-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background: #006A50;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid transparent ;
+    transition: animation-spown 0.5s ease, color 0.5s ease;
+  }
+  
+  .donate-button:hover {
+    background: #fff;
+    border: 1px solid #006A50 ;
+    color: #006A50;
+  }  
+  
