@@ -184,7 +184,7 @@
   }
   
   .donate-description {
-    font-size: 16px;
+    font-size: 12px;
     color: #555;
     margin-bottom: 20px;
   }
@@ -192,9 +192,8 @@
   .donation-options {
     display: flex;
     justify-content: center;
-    gap: 15px;
-    margin-bottom: 20px;
-    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 10px;
   }
   
   .donation-card {
@@ -222,7 +221,7 @@
   
   
   .donate-input {
-    width: 100%;
+    width: 95%;
     padding: 10px;
     font-size: 16px;
     margin: 10px auto 20px;
