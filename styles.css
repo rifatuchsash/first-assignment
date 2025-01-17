@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F5F5F5;
+    color: #333;
+  }
+  
+  .body {
+    margin: 0;
+    padding: 0 100px;
+    font-family: Arial, sans-serif;
+    background-color: #F5F5F5;
+    color: #333;
+  }
+  
+  .container {
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .hero {
+    background-color: #C6E4D6;
+    text-align: left;
+    display: grid;
+    border-radius: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 40px 0px;
+    margin-bottom: 20px;
+  }
+  
+  .title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .details {
+    text-align: left;
+  }
+  
+  .hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+  }
+  
+  .cta-btn {
+    padding: 15px 30px;
+    background-color: #006A50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
