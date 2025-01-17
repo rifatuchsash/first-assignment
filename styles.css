@@ -1,47 +1,52 @@
-  .body {
-    margin: 0;
-    padding: 0 100px;
-    font-family: Arial, sans-serif;
-    background-color: #F5F5F5;
-    color: #0a0a0a;
-  }
-  .container {
-    margin: 0 auto;
-    padding: 20px;
-  }
- .hero {
-    background-color: #C6E4D6;
-    text-align: left;
-    display: grid;
-    border-radius: 20px;
-    grid-template-columns: repeat(2, 1fr);
-    padding: 40px 0px;
-    margin-bottom: 20px;
-  }
-  
-  .title {
-    font-size: 2rem;
-    margin-bottom: 20px;
-    text-align: left;
-  }
-  
-  .details {
-    text-align: left;
-  }
-  
-  .hero h2 {
-    font-size: 2.5rem;
-    margin-bottom: 5px;
-  }
-  
-  .cta-btn {
-    padding: 15px 30px;
-    background-color: #006A50;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
+body {
+  font-family: Arial, sans-serif;
+  background-color: #F5F5F5;
+  color: #333;
+}
+.body {
+  margin: 0;
+  padding: 0 100px;
+  font-family: Arial, sans-serif;
+  background-color: #F5F5F5;
+  color: #0f0f0f;
+}
+.container {
+  margin: 0 auto;
+  padding: 20px;
+}
+.hero {
+  background-color: #C6E4D6;
+  text-align: left;
+  display: grid;
+  border-radius: 30px;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 40px 0px;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.details {
+  text-align: left;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.cta-btn {
+  padding: 15px 30px;
+  background-color: #006A50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
 
   .vision {
     margin-bottom: 20px;
@@ -69,7 +74,7 @@
   
   .vision-card2 {
     background-color: #C6E4D6;
-    padding: 25px;
+    padding: 20px;
     border-radius: 10px;
     text-align: left;
   }
@@ -120,7 +125,7 @@
   }
   
   .mb-5 {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
   }
   
   .news-content {
@@ -135,7 +140,7 @@
   .news-header {
     font-size: 22px;
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     color: #333;
   }
   
@@ -242,7 +247,6 @@
     display: block;
     margin: 0 auto;
     border: 1px solid transparent ;
-    transition: animation-spown 0.5s ease, color 0.5s ease;
   }
   
   .donate-button:hover {
@@ -250,4 +254,68 @@
     border: 1px solid #006A50 ;
     color: #006A50;
   }  
+
+
+  .newsletter-section {
+    margin: 50px auto;
+    text-align: center;
+    background: #C6E4D6;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px 10px;
+  }
+  
+  .newsletter-header {
+    font-size: 30px;
+    font-weight: bold;
+    color: #0a0a0a;
+    margin-bottom: 10px;
+  }
+  
+  .newsletter-description {
+    font-size: 15px;
+    color: #555;
+    width: 20%;
+    margin: 10px;
+  }
+  
+  .subscribe-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+  }
+  
+  .subscribe-input {
+    width: 70%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+  }
+  
+  .subscribe-button {
+    padding: 9px 20px;
+    font-size: 16px;
+    color: #fff;
+    background: #006A50;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    border: 2px solid transparent;
+  }
+  
+  .subscribe-button:hover {
+    background: #fff;
+    color: #006A50;
+    border: 2px solid #006A50;
+  }
+  
+  .newsletter-note {
+    margin-top: 15px;
+    font-size: 12px;
+    color: #777;
+  }
   
